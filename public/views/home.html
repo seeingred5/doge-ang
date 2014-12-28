@@ -1,0 +1,21 @@
+<button style="display: none;"id="weatherBtn" ng-click="weath()">weather</button>
+
+<div class="container">
+    <div class="row text-center">
+	<img id ="dogeBg" ng-src="{{ dogeBg }}" alt="Big Doge" />
+	<!-- <img id="dogeBig" src="/img/doge-glasses.png" alt="Big Doge" /> -->
+
+	<div id="summary" ng-show="weather">
+	    {{ temp }}&deg;C
+	    {{ weather.currently.summary }}<br/>
+	    {{ doge }}
+	    {{ weather.timezone }}
+	</div>
+
+	<!-- <p id="dogeWord{{ $index }}" -->
+	<p id="dogeWord" doge-directive ng-repeat="string in strings track by $index">
+	    {{ string }}
+	</p>
+    </div>
+
+</div>

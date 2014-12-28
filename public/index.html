@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en" ng-app="postr">
+    <head>
+        <meta charset="UTF-8"/>
+	<meta http-equiv="refresh" content="60" />
+        <title>Document</title>
+
+	<link rel="stylesheet" href="libs/bootstrap/dist/css/bootstrap.min.css" type="text/css" media="screen" />
+	<link href="css/style.css" rel="stylesheet"/>
+	
+	<!-- libraries -->
+	<script src="libs/angular/angular.js"></script>
+	<script src="libs/angular-route/angular-route.js"></script>
+	<script src="libs/angular-geolocation/geolocation.js"></script>
+	<script src="libs/jquery/dist/jquery.js"></script>
+	<script src="libs/bootstrap/dist/js/bootstrap.min.js"></script>
+	<script src="libs/underscore/underscore.js"></script>
+	<script src="libs/angular-underscore/angular-underscore.js"></script>
+	<script src="https://maps.googleapis.com/maps/api/js"></script>
+	<!-- Angular app files -->
+	<script src="js/controllers/MainController.js"></script>
+	<script src="js/services/PostService.js"></script>
+	<script src="js/appRoutes.js"></script>
+	<script src="js/app.js"></script>
+	<script src="js/query.js"></script>
+    </head>
+    <body>
+	<div ng-view>
+	</div>
+    </body>
+</html>

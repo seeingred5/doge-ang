@@ -1,0 +1,84 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install', '-g', 'node-mongoose' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.33
+4 verbose cache add [ 'node-mongoose', null ]
+5 verbose cache add name=undefined spec="node-mongoose" args=["node-mongoose",null]
+6 verbose parsed url { protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: 'node-mongoose',
+6 verbose parsed url   path: 'node-mongoose',
+6 verbose parsed url   href: 'node-mongoose' }
+7 silly lockFile 77b0e837-node-mongoose node-mongoose
+8 verbose lock node-mongoose /Users/tom/.npm/77b0e837-node-mongoose.lock
+9 silly lockFile 77b0e837-node-mongoose node-mongoose
+10 silly lockFile 77b0e837-node-mongoose node-mongoose
+11 verbose addNamed [ 'node-mongoose', '' ]
+12 verbose addNamed [ null, '*' ]
+13 silly lockFile 070c5696-node-mongoose node-mongoose@
+14 verbose lock node-mongoose@ /Users/tom/.npm/070c5696-node-mongoose.lock
+15 silly addNameRange { name: 'node-mongoose', range: '*', hasData: false }
+16 verbose request where is /node-mongoose
+17 verbose request registry https://registry.npmjs.org/
+18 verbose request id 7422d5d9042743b4
+19 verbose url raw /node-mongoose
+20 verbose url resolving [ 'https://registry.npmjs.org/', './node-mongoose' ]
+21 verbose url resolved https://registry.npmjs.org/node-mongoose
+22 verbose request where is https://registry.npmjs.org/node-mongoose
+23 info trying registry request attempt 1 at 11:11:21
+24 http GET https://registry.npmjs.org/node-mongoose
+25 http 404 https://registry.npmjs.org/node-mongoose
+26 verbose headers { date: 'Thu, 18 Dec 2014 01:11:22 GMT',
+26 verbose headers   server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+26 verbose headers   'content-type': 'application/json',
+26 verbose headers   'cache-control': 'max-age=0',
+26 verbose headers   'content-length': '52',
+26 verbose headers   'accept-ranges': 'bytes',
+26 verbose headers   via: '1.1 varnish',
+26 verbose headers   age: '0',
+26 verbose headers   'x-served-by': 'cache-syd1622-SYD',
+26 verbose headers   'x-cache': 'MISS',
+26 verbose headers   'x-cache-hits': '0',
+26 verbose headers   'x-timer': 'S1418865082.583745,VS0,VE186',
+26 verbose headers   'keep-alive': 'timeout=10, max=50',
+26 verbose headers   connection: 'Keep-Alive' }
+27 silly registry.get cb [ 404,
+27 silly registry.get   { date: 'Thu, 18 Dec 2014 01:11:22 GMT',
+27 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+27 silly registry.get     'content-type': 'application/json',
+27 silly registry.get     'cache-control': 'max-age=0',
+27 silly registry.get     'content-length': '52',
+27 silly registry.get     'accept-ranges': 'bytes',
+27 silly registry.get     via: '1.1 varnish',
+27 silly registry.get     age: '0',
+27 silly registry.get     'x-served-by': 'cache-syd1622-SYD',
+27 silly registry.get     'x-cache': 'MISS',
+27 silly registry.get     'x-cache-hits': '0',
+27 silly registry.get     'x-timer': 'S1418865082.583745,VS0,VE186',
+27 silly registry.get     'keep-alive': 'timeout=10, max=50',
+27 silly registry.get     connection: 'Keep-Alive' } ]
+28 silly lockFile 070c5696-node-mongoose node-mongoose@
+29 silly lockFile 070c5696-node-mongoose node-mongoose@
+30 error 404 404 Not Found: node-mongoose
+30 error 404
+30 error 404 'node-mongoose' is not in the npm registry.
+30 error 404 You should bug the author to publish it
+30 error 404
+30 error 404 Maybe try 'npm search mongoose'
+30 error 404
+30 error 404 Note that you can also install from a
+30 error 404 tarball, folder, or http url, or git url.
+31 error System Darwin 14.0.0
+32 error command "node" "/usr/local/bin/npm" "install" "-g" "node-mongoose"
+33 error cwd /Users/tom/Programming/crud
+34 error node -v v0.10.33
+35 error npm -v 1.4.28
+36 error code E404
+37 verbose exit [ 1, true ]
